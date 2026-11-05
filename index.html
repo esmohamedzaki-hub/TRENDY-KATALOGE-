@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>شركة التسويق العقاري | وحدات سياحية وسكنية</title>
+<meta name="description" content="تسويق وبيع الوحدات السياحية والسكنية أونلاين بخطط سداد واضحة.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f3ea;--surface:#fffdf8;--ink:#0d2b33;--muted:#4f6a70;--brand:#0f5f6b;--brand-ink:#fff;--accent:#e2623a;--line:#e3dccb;--wa:#1faa59;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1d22;--surface:#12292f;--ink:#f1ece0;--muted:#a9bec2;--brand:#47b6c4;--brand-ink:#06242a;--accent:#ff8a63;--line:#25424a}}
+:root[data-theme="dark"]{--bg:#0b1d22;--surface:#12292f;--ink:#f1ece0;--muted:#a9bec2;--brand:#47b6c4;--brand-ink:#06242a;--accent:#ff8a63;--line:#25424a}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-size:17px;line-height:1.8}
+:lang(ar){font-family:"Cairo","Segoe UI",Tahoma,sans-serif;font-size:18px}
+:lang(en){font-family:"Manrope","Segoe UI",Arial,sans-serif;line-height:1.65;letter-spacing:-.005em}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+a{color:inherit}
+.wrap{max-width:1120px;margin-inline:auto;padding-inline:20px}
+h1,h2,h3{line-height:1.3;margin:0 0 .5em}
+h1{font-size:clamp(2rem,6vw,3.6rem);font-weight:800}
+h2{font-size:clamp(1.5rem,4vw,2.3rem);font-weight:800}
+h3{font-size:1.15rem;font-weight:600}
+p{margin:0 0 1em}
+.btn{display:inline-flex;align-items:center;gap:.5em;padding:.8em 1.4em;border-radius:999px;font-weight:600;text-decoration:none;border:2px solid transparent;cursor:pointer;font:inherit;font-weight:600}
+.btn:focus-visible,.lang:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-wa:hover{filter:brightness(1.08)}
+.btn-line{border-color:var(--brand);color:var(--brand)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:10px}
+.logo{font-weight:800;font-size:1.15rem;color:var(--brand);text-decoration:none;display:flex;align-items:center;gap:8px}
+.logo svg{width:30px;height:30px}
+nav{display:none;gap:22px}
+nav a{text-decoration:none;font-weight:600;color:var(--muted)}
+nav a:hover{color:var(--brand)}
+.tools{display:flex;gap:10px;align-items:center}
+.lang{background:none;border:1.5px solid var(--line);color:var(--ink);border-radius:999px;padding:.35em 1em;cursor:pointer;font-weight:600;font:inherit;font-weight:600}
+@media(min-width:860px){nav{display:flex}}
+.hero{padding-block:64px 56px;position:relative;overflow:hidden}
+.hero .wrap{display:grid;gap:36px}
+.eyebrow{display:inline-block;color:var(--accent);font-weight:800;margin-bottom:10px}
+.hero p.lead{font-size:1.15em;color:var(--muted);max-width:34em}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.panel{background:var(--brand);color:var(--brand-ink);border-radius:28px;padding:28px;position:relative;overflow:hidden}
+.panel h3{font-size:1.3rem}
+.panel ul{list-style:none;padding:0;margin:0}
+.panel li{padding:10px 0;border-bottom:1px solid color-mix(in srgb,var(--brand-ink) 25%,transparent)}
+.panel li:last-child{border:0}
+.waves{position:absolute;inset-inline:0;bottom:-6px;width:100%;height:60px;opacity:.18}
+@media(min-width:860px){.hero .wrap{grid-template-columns:1.2fr .8fr;align-items:center}}
+section{padding-block:56px}
+.alt{background:var(--surface);border-block:1px solid var(--line)}
+.grid{display:grid;gap:18px}
+@media(min-width:700px){.g4{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1000px){.g4{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px}
+.alt .card{background:var(--bg)}
+.num{font-weight:800;color:var(--accent);font-size:1.6rem;display:block}
+.sub{color:var(--muted);max-width:40em}
+.proj{display:grid;gap:24px}
+@media(min-width:860px){.proj{grid-template-columns:1fr 1fr}}
+.tag{display:inline-block;background:color-mix(in srgb,var(--accent) 16%,transparent);color:var(--accent);border-radius:999px;padding:.1em .8em;font-weight:600;font-size:.85em}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:320px}
+th,td{padding:12px 10px;text-align:start;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:600}
+.note{font-size:.85em;color:var(--muted)}
+.final{background:var(--brand);color:var(--brand-ink);text-align:center;border-radius:28px;padding:44px 20px}
+.final .btn-wa{font-size:1.1em}
+footer{padding-block:36px 110px;border-top:1px solid var(--line);color:var(--muted)}
+.fgrid{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
+.fab{position:fixed;inset-inline-end:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:25;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+ <a class="logo" href="#top" aria-label="Home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M3 28V14L16 4l13 10v14z" fill="var(--brand)"/><path d="M3 22c4-3 7 3 13 0s9-3 13 0v6H3z" fill="var(--accent)"/></svg><span data-i18n="brand"></span></a>
+ <nav aria-label="Main"><a href="#services" data-i18n="n1"></a><a href="#project" data-i18n="n2"></a><a href="#process" data-i18n="n3"></a><a href="#contact" data-i18n="n4"></a></nav>
+ <div class="tools"><button class="lang" id="lang" type="button"></button></div>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+ <div>
+  <span class="eyebrow" data-i18n="eyebrow"></span>
+  <h1 data-i18n="h1"></h1>
+  <p class="lead" data-i18n="lead"></p>
+  <div class="cta-row">
+   <a class="btn btn-wa" data-wa href="#" target="_blank" rel="noopener"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1-3-1.2-5-4.2-5.1-4.4-.1-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.300 1.700 2.100 1.200 1 2.200 1.300 2.500 1.500.3.1.4.1.6-.1l.8-1c.2-.3.4-.2.6-.1l1.900.9c.3.1.5.2.5.4.100.2.100.8-.1 1.300z"/></svg><span data-i18n="cta"></span></a>
+   <a class="btn btn-line" href="#project" data-i18n="cta2"></a>
+  </div>
+ </div>
+ <aside class="panel" aria-label="Highlights">
+  <h3 data-i18n="pt"></h3>
+  <ul><li data-i18n="p1"></li><li data-i18n="p2"></li><li data-i18n="p3"></li><li data-i18n="p4"></li></ul>
+  <svg class="waves" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true"><path d="M0 30c50-30 100 30 150 0s100-30 150 0 70 20 100 0v30H0z" fill="currentColor"/></svg>
+ </aside>
+</div></div>
+
+<section id="services" class="alt"><div class="wrap">
+ <h2 data-i18n="sh"></h2><p class="sub" data-i18n="ss"></p>
+ <div class="grid g4" style="margin-top:24px">
+  <div class="card"><span class="num">01</span><h3 data-i18n="s1t"></h3><p data-i18n="s1d"></p></div>
+  <div class="card"><span class="num">02</span><h3 data-i18n="s2t"></h3><p data-i18n="s2d"></p></div>
+  <div class="card"><span class="num">03</span><h3 data-i18n="s3t"></h3><p data-i18n="s3d"></p></div>
+  <div class="card"><span class="num">04</span><h3 data-i18n="s4t"></h3><p data-i18n="s4d"></p></div>
+ </div>
+</div></section>
+
+<section id="project"><div class="wrap">
+ <span class="tag" data-i18n="pj_tag"></span>
+ <h2 style="margin-top:10px" data-i18n="pj_h"></h2>
+ <div class="proj">
+  <div><p class="sub" data-i18n="pj_d"></p>
+   <div class="card"><h3 data-i18n="units_h"></h3>
+    <div class="scroll"><table><thead><tr><th data-i18n="th1"></th><th data-i18n="th2"></th></tr></thead>
+     <tbody><tr><td data-i18n="u1"></td><td dir="ltr" style="text-align:start"><bdi>72 m²</bdi></td></tr><tr><td data-i18n="u2"></td><td dir="ltr" style="text-align:start"><bdi>100 m²</bdi></td></tr></tbody></table></div></div>
+  </div>
+  <div class="card"><h3 data-i18n="plan_h"></h3>
+   <div class="scroll"><table><thead><tr><th data-i18n="pl1"></th><th data-i18n="pl2"></th><th data-i18n="pl3"></th></tr></thead>
+    <tbody><tr><td data-i18n="planA"></td><td>10%</td><td data-i18n="y5"></td></tr><tr><td data-i18n="planB"></td><td>20%</td><td data-i18n="y6"></td></tr></tbody></table></div>
+   <p class="note" style="margin-top:12px" data-i18n="note"></p>
+   <a class="btn btn-wa" data-wa data-msg="proj" href="#" target="_blank" rel="noopener" data-i18n="cta3"></a>
+  </div>
+ </div>
+</div></section>
+
+<section id="process" class="alt"><div class="wrap">
+ <h2 data-i18n="ph"></h2>
+ <div class="grid g3" style="margin-top:24px">
+  <div class="card"><span class="num">1</span><h3 data-i18n="st1t"></h3><p data-i18n="st1d"></p></div>
+  <div class="card"><span class="num">2</span><h3 data-i18n="st2t"></h3><p data-i18n="st2d"></p></div>
+  <div class="card"><span class="num">3</span><h3 data-i18n="st3t"></h3><p data-i18n="st3d"></p></div>
+ </div>
+</div></section>
+
+<section id="contact"><div class="wrap"><div class="final">
+ <h2 data-i18n="fh"></h2><p data-i18n="fd"></p>
+ <a class="btn btn-wa" data-wa href="#" target="_blank" rel="noopener" data-i18n="cta"></a>
+</div></div></section>
+</main>
+
+<footer><div class="wrap fgrid">
+ <div><strong data-i18n="brand"></strong><br><span data-i18n="foot"></span></div>
+ <div><a data-tel href="#" dir="ltr"><bdi>+20 XXX XXX XXXX</bdi></a><br><span data-i18n="legal"></span></div>
+</div></footer>
+
+<a class="btn btn-wa fab" data-wa href="#" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="10"/></svg><span data-i18n="fab"></span></a>
+
+<script>
+// TODO: replace with the real number in international format, digits only (e.g. 201001234567)
+var WA_NUMBER="20XXXXXXXXXX";
+var D={
+ar:{title:"شركة التسويق العقاري | وحدات سياحية وسكنية",brand:"اسم شركتك هنا",n1:"خدماتنا",n2:"مشروع مميز",n3:"كيف نعمل",n4:"تواصل",
+eyebrow:"تسويق عقاري أونلاين",h1:"نسوّق ونبيع وحدتك السياحية بثقة",lead:"نربط المشترين بأفضل الوحدات السياحية والسكنية بخطط سداد واضحة، وبمتابعة مباشرة من أول استفسار حتى التعاقد.",
+cta:"تواصل معنا عبر واتساب",cta2:"شاهد مشروعًا مميزًا",cta3:"اسأل عن المشروع على واتساب",fab:"واتساب",
+pt:"لماذا نحن؟",p1:"رد سريع على كل استفسار",p2:"عرض واضح للمساحات وخطط السداد",p3:"مشروعات مختارة بعناية",p4:"متابعة حتى استلام الوحدة",
+sh:"خدماتنا",ss:"من التسويق الرقمي إلى إغلاق الصفقة، نغطي رحلة العميل كاملة.",
+s1t:"تسويق وحدات سياحية",s1d:"شاليهات وشقق بالساحل والسخنة مع عرض احترافي للمشروع.",
+s2t:"حملات إعلانية رقمية",s2d:"إعلانات مصممة لجذب مشترين جادين وتحويل الاهتمام إلى مكالمة.",
+s3t:"استشارات الاستثمار",s3d:"مقارنة المناطق والمشروعات وخطط السداد لمساعدتك على القرار.",
+s4t:"متابعة ما بعد التعاقد",s4d:"نبقى بجانبك في الإجراءات حتى تستلم وحدتك.",
+pj_tag:"مشروع مختار",pj_h:"السخنة هيلز — شاليهات بالعين السخنة",pj_d:"شاليهات سياحية بالعين السخنة بمساحات مناسبة للإجازات والاستثمار. (وصف تفصيلي للمشروع: أضف هنا.)",
+units_h:"الوحدات المتاحة",th1:"النوع",th2:"المساحة",u1:"غرفة نوم واحدة",u2:"غرفتا نوم",
+plan_h:"أنظمة السداد",pl1:"النظام",pl2:"المقدم",pl3:"التقسيط",planA:"النظام الأول",planB:"النظام الثاني",y5:"5 سنوات",y6:"6 سنوات",
+note:"الأسعار وموعد الاستلام: أضفها قبل النشر. الأنظمة أعلاه قابلة للتأكيد مع الشركة.",
+ph:"كيف نعمل",st1t:"تواصل",st1d:"راسلنا على واتساب بما تبحث عنه.",st2t:"اختر",st2d:"نعرض لك الخيارات والمساحات وخطط السداد المناسبة.",st3t:"تعاقد",st3d:"نرافقك في الإجراءات حتى الاستلام.",
+fh:"جاهز تعرف التفاصيل؟",fd:"أرسل لنا رسالة الآن وسنرد عليك في أقرب وقت.",
+foot:"تسويق عقاري — مصر",legal:"© اسم شركتك. (أضف البيانات القانونية هنا)",
+msg:"مرحبًا، أريد الاستفسار عن الوحدات المتاحة.",proj:"مرحبًا، أريد تفاصيل مشروع السخنة هيلز.",sw:"English"},
+en:{title:"Real Estate Marketing | Resort & Residential Units",brand:"Your Company Name",n1:"Services",n2:"Featured project",n3:"How we work",n4:"Contact",
+eyebrow:"Online real estate marketing",h1:"We market and sell your resort unit with confidence",lead:"We connect buyers with the best resort and residential units, clear payment plans, and hands-on follow-up from first enquiry to contract.",
+cta:"Chat with us on WhatsApp",cta2:"See a featured project",cta3:"Ask about this project on WhatsApp",fab:"WhatsApp",
+pt:"Why us?",p1:"Fast replies to every enquiry",p2:"Clear sizes and payment plans",p3:"Carefully selected projects",p4:"Support until handover",
+sh:"Our services",ss:"From digital marketing to closing the deal, we cover the whole buyer journey.",
+s1t:"Resort unit marketing",s1d:"Chalets and apartments on the coast and Sokhna, presented professionally.",
+s2t:"Digital ad campaigns",s2d:"Ads built to attract serious buyers and turn interest into a call.",
+s3t:"Investment advice",s3d:"Compare areas, projects, and payment plans to decide with confidence.",
+s4t:"After-sale support",s4d:"We stay with you through the paperwork until handover.",
+pj_tag:"Featured project",pj_h:"Sokhna Hills — Chalets in Ain Sokhna",pj_d:"Resort chalets in Ain Sokhna with sizes suited to holidays and investment. (Add a full project description here.)",
+units_h:"Available units",th1:"Type",th2:"Area",u1:"One bedroom",u2:"Two bedrooms",
+plan_h:"Payment plans",pl1:"Plan",pl2:"Down payment",pl3:"Installments",planA:"Plan A",planB:"Plan B",y5:"5 years",y6:"6 years",
+note:"Prices and delivery date: add before publishing. Confirm the plans above with the company.",
+ph:"How we work",st1t:"Reach out",st1d:"Message us on WhatsApp with what you are looking for.",st2t:"Choose",st2d:"We show you options, sizes, and a fitting payment plan.",st3t:"Sign",st3d:"We guide you through the process until handover.",
+fh:"Ready to see the details?",fd:"Send us a message now and we will reply as soon as possible.",
+foot:"Real estate marketing — Egypt",legal:"© Your Company. (Add legal details here.)",
+msg:"Hello, I would like to ask about the available units.",proj:"Hello, I would like details about the Sokhna Hills project.",sw:"العربية"}};
+var cur="ar";
+function wa(k){return "https://wa.me/"+WA_NUMBER+"?text="+encodeURIComponent(D[cur][k||"msg"])}
+function apply(l){cur=l;var h=document.documentElement;h.lang=l;h.dir=l==="ar"?"rtl":"ltr";
+document.querySelectorAll("[data-i18n]").forEach(function(e){e.textContent=D[l][e.dataset.i18n]});
+document.querySelectorAll("[data-wa]").forEach(function(e){e.href=wa(e.dataset.msg)});
+document.querySelectorAll("[data-tel]").forEach(function(e){e.href="tel:+"+WA_NUMBER});
+document.title=D[l].title;document.getElementById("lang").textContent=D[l].sw;
+try{localStorage.setItem("lang",l)}catch(e){}}
+document.getElementById("lang").addEventListener("click",function(){var n=cur==="ar"?"en":"ar";apply(n);history.replaceState(null,"","#"+n)});
+var s="ar";try{s=localStorage.getItem("lang")||"ar"}catch(e){}
+if(location.hash==="#en")s="en";if(location.hash==="#ar")s="ar";apply(s);
+</script>
+</body>
+</html>
